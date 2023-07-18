@@ -87,10 +87,11 @@ class Program
             Console.SetCursorPosition(x, y + 2);
             InfoStr = $"Цель X, Y: {TargetX}, {TargetY}            ";
             Console.WriteLine(InfoStr);
+            /*
             Console.SetCursorPosition(x, y + 4);
             double Distance1 = Math.Round(Math.Sqrt(Math.Pow(TargetY - PlayerY + 256, 2) + Math.Pow(TargetX - PlayerX + 256, 2)), 2);
             double Distance2 = Math.Round(Math.Sqrt(Math.Pow(TargetY - PlayerY, 2) + Math.Pow(TargetX - PlayerX, 2)), 2);
-            Console.WriteLine($"Расстояние до цели {Math.Min(Distance1, Distance2)}                     ");
+            Console.WriteLine($"Расстояние до цели {Math.Min(Distance1, Distance2)}                     ");*/
             Console.SetCursorPosition(x, y + 6);
             InfoStr = $"Сытость: {PlayerSatiety}            ";
             Console.WriteLine(InfoStr);
